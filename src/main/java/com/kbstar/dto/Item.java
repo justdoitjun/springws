@@ -14,6 +14,6 @@ public class Item {
     private String name;
     private int price;
     private String imgname;
-    private Date regdate;
+    private Date rdate;
 
 }

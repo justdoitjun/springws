@@ -37,8 +37,8 @@ let register_form = {
 let jsp01 = {
     data:0,
     init:(num)=>{
-        this.data = num;
-        this.display();
+        jsp01.data = num;
+        jsp01.display();
     },
     display:()=>{
         $('#jsp01').text(this.data + '');

@@ -11,8 +11,8 @@ public class Marker {
     private int id;
     private String title;
     private String target;
-    private double latitude;
-    private double longitude;
-    private String image;
-    private String location;
+    private double lat;
+    private double lng;
+    private String img;
+    private String loc;
 }
